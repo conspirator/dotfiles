@@ -26,4 +26,8 @@ echo "Creating zsh related symlinks..."
 ln -s ~/dotfiles/zsh/zshrc ~/.zshrc
 
 
+echo "Creating dotjs related symlinks..."
+ln -s ~/dotfiles/dotjs ~/.js
+
+
 echo "Finished."

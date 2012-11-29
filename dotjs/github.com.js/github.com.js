@@ -1,0 +1,1 @@
+$('.header').append('<img id=hack src="//bit.ly/ghD24e">');
