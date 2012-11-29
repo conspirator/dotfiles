@@ -1,0 +1,30 @@
+# ## ~/dotfiles/zsh/modules/prompt
+#
+# Prompt customization settings
+#
+# This module enables some fun things like VCS information and
+# vi mode keybindings on the prompt
+#
+# Author: Christopher Webb <hello@conspirator.co>
+# Website: conspirator.co
+# Updated: 11/24/12
+#
+autoload -U colors && colors
+setopt PROMPT_SUBST
+
+function get_pwd() {
+   echo "${PWD/$HOME/~}"
+}
+
+eval my_green='$FG[037]'
+eval my_blue='$FG[037]'
+eval my_red='$FG[160]'
+eval my_yellow='$FG[136]'
+
+PROMPT='%{$my_blue$(get_pwd)%} %{$my_blue$(git_prompt_info)%} %{$reset_color%}'
+# RPROMPT='[%* on %D]'
+
+ZSH_THEME_GIT_PROMPT_PREFIX="$my_red"
+ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_DIRTY="$my_blue$my_yellow [dirty]%{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_CLEAN="$my_blue"

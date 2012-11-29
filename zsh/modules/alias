@@ -1,0 +1,18 @@
+# Getting around
+alias ls="ls -al"
+alias home="cd ~/"
+alias sites="cd ~/sites"
+alias dotfiles="cd ~/dotfiles"
+
+
+# Apps
+alias g="git"
+alias s="subl"
+alias _ios="open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app/"
+
+
+# Edit/Source files
+alias zshedit="s ~/dotfiles/zsh"
+alias _z="source ~/.zshrc"
+alias hostsedit="s /etc/hosts /private/etc/apache2/httpd.conf"
+alias gitedit="s ~/.gitconfig"

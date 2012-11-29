@@ -1,0 +1,31 @@
+[user]
+	name = Christopher Webb
+	email = cwebb@groupon.com
+[format]
+  pretty = %C(magenta)%h%Creset %C(cyan)%aN%Creset %s %C(red)(%cr)%Creset
+[alias]
+  pr = pull --rebase
+  st = status -sb
+  ci = commit -m
+  ca = commit --amend
+  br = branch
+  dbr = branch -D
+  co = checkout
+  df = diff
+  kdf = difftool HEAD
+  lp = log --pretty="format:'%h | %ad | %an - %s%d'" --date=short
+  lgs = log --stat
+  unstash = stash apply
+[color]
+  ui = true
+[core]
+	excludesfile = ~/.gitignore
+	quotepath = false
+[mergetool]
+	keepBackup = true
+[difftool "Kaleidoscope"]
+  cmd = ksdiff-wrapper git \"$LOCAL\" \"$REMOTE\"
+[diff]
+	tool = Kaleidoscope
+[difftool]
+  prompt = false

@@ -1,0 +1,3 @@
+# Removes these messages when you open up iTerm/Terminal
+# Last login: Tue Jun 22 10:59:29 on ttys003
+touch ~/.hushlogin
