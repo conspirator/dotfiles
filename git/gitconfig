@@ -8,20 +8,24 @@
   st = status -sb
   ci = commit -m
   ca = commit --amend
-  br = branch
+  br = fresh
   dbr = branch -D
   co = checkout
   df = diff
+  dfc = diff --cached
   kdf = difftool HEAD
   lp = log --pretty="format:'%h | %ad | %an - %s%d'" --date=short
   lgs = log --stat
   unstash = stash apply
   undo = reset head~1
+  clear = reset --hard
 [color]
   ui = true
+
 [core]
 	excludesfile = ~/.gitignore
 	quotepath = false
+	pager = less -r
 [mergetool]
 	keepBackup = true
 [difftool "Kaleidoscope"]
