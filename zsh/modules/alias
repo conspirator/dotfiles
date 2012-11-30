@@ -2,6 +2,7 @@
 alias ls="ls -al"
 alias home="cd ~/"
 alias sites="cd ~/sites"
+alias desktop="cd ~/desktop"
 alias dotfiles="cd ~/dotfiles"
 
 
@@ -9,6 +10,12 @@ alias dotfiles="cd ~/dotfiles"
 alias g="git"
 alias s="subl"
 alias _ios="open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app/"
+
+
+# Utilities
+alias c="pbcopy"
+alias p="pbpaste"
+alias ss!="phantomjs ~/dropbox/code/utilities/phantomjs/screenshot.coffee"
 
 
 # Edit/Source files
