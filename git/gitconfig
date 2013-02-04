@@ -8,7 +8,7 @@
   st = status -sb
   ci = commit -m
   ca = commit --amend
-  br = fresh
+  br = branch
   dbr = branch -D
   co = checkout
   df = diff

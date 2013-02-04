@@ -25,6 +25,6 @@ PROMPT='%{$my_blue$(get_pwd)%} %{$my_blue$(git_prompt_info)%} %{$reset_color%}'
 # RPROMPT='[%* on %D]'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="$my_red"
-ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
-ZSH_THEME_GIT_PROMPT_DIRTY="$my_blue$my_yellow [dirty]%{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_SUFFIX="$reset_color"
+ZSH_THEME_GIT_PROMPT_DIRTY="$my_blue$my_yellow [dirty] $reset_color"
 ZSH_THEME_GIT_PROMPT_CLEAN="$my_blue"
