@@ -17,8 +17,6 @@
   lp = log --pretty="format:'%h | %ad | %an - %s%d'" --date=short
   lgs = log --stat
   unstash = stash apply
-  undo = reset head~1
-  clear = reset --hard
 [color]
   ui = true
 

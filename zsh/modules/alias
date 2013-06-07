@@ -21,5 +21,7 @@ alias ss!="phantomjs ~/dropbox/code/utilities/phantomjs/screenshot.coffee"
 # Edit/Source files
 alias zshedit="s ~/dotfiles/zsh"
 alias _z="source ~/.zshrc"
+alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
 alias hostsedit="s /etc/hosts /private/etc/apache2/httpd.conf"
 alias gitedit="s ~/.gitconfig"
+alias grma="git ls-files --deleted | xargs git rm"
