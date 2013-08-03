@@ -6,7 +6,7 @@
 #
 # Author: Christopher Webb <hello@conspirator.co>
 # Website: http://conspirator.co
-# Updated: 11/29/12
+# Updated: 8/3/13
 #
 
 
@@ -22,8 +22,13 @@ ln -s ~/dotfiles/git/gitconfig ~/.gitconfig
 ln -s ~/dotfiles/git/gitignore ~/.gitignore
 
 
-echo "Creating zsh related symlinks..."
-ln -s ~/dotfiles/zsh/zshrc ~/.zshrc
+# echo "Creating zsh related symlinks..."
+# ln -s ~/dotfiles/zsh/zshrc ~/.zshrc
+
+
+echo "Creating bash related symlinks..."
+ln -s ~/dotfiles/bash/.bashrc ~/.bashrc
+ln -s ~/dotfiles/bash/.bash_profile ~/.bash_profile
 
 
 echo "Finished."
