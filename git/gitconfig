@@ -1,6 +1,6 @@
 [user]
 	name = Christopher Webb
-	email = cwebb@groupon.com
+	email = hello@conspirator.co
 [format]
   pretty = %C(magenta)%h%Creset %C(cyan)%aN%Creset %s %C(red)(%cr)%Creset
 [alias]
