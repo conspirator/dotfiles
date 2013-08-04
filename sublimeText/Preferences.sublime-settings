@@ -1,18 +1,18 @@
 {
   "color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme",
   "font_face": "SourceCodePro-ExtraLight",
-	"font_size": 13.0,
-	"highlight_line": false,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"line_padding_bottom": 2,
-	"line_padding_top": 2,
-	"overlay_scroll_bars": "disabled",
-	"save_on_focus_lost": true,
-	"spell_check": true,
-	"tab_size": 2,
-	"theme": "Flatland Dark.sublime-theme",
-	"translate_tabs_to_spaces": true
+  "font_size": 13.0,
+  "highlight_line": false,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "line_padding_bottom": 2,
+  "line_padding_top": 2,
+  "overlay_scroll_bars": "disabled",
+  "save_on_focus_lost": true,
+  "spell_check": true,
+  "tab_size": 2,
+  "theme": "Flatland Dark.sublime-theme",
+  "translate_tabs_to_spaces": true
 }
